@@ -1,0 +1,46 @@
+<!-- <a href='https://www.freepik.com/vectors/futuristic-background'>Futuristic background vector created by pikisuperstar - www.freepik.com</a> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1 id="title">CHROMATIC CIPHERS</h1>
+    <div id="instructions">
+        <h3 id="instructionHeading">Welcome</h3>
+        <h3 id="instructionStart">Kindly go through these instructions for the game:</h3>
+        <ul id="instructionList">
+            <li>There will be three rounds to the game with increasing difficulties.</li>
+            <li>You will be shown few cards with different colors and numbers on them. Memorize the numbers associated
+                with those colors.</li>
+            <li>After a certain period of time, the cards will again be displayed on the screen, but this time without
+                the numbers on them. There will also be mathematical operators shown between the cards.</li>
+            <li>You must solve the equation represented by the cards and submit your answer in the text box given below.
+            </li>
+            <li>The answer shall always be an integer value, never a fraction.</li>
+            <li>On submission of each correct answer, you'll receive a score point.</li>
+            <li>Submission of wrong answer will lead to game over.</li>
+        </ul>
+    </div>
+    <div class="container" id="container">
+        <div class="cards" id="cards"></div>
+        <div class="answer">
+            <input id="answer" type="text" placeholder="Answer">
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn" id="score">Score: 0</button>
+        <button class="btn" id="start">Start Game</button>
+        <button class="btn" id="maxScore">Max Score: </button>
+    </div>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Starzone";
+    src: url(../fonts/OpenType-PS/Starzone-SVG.otf);
+}
+
+@font-face{
+    font-family: "Correct";
+    src: url(../fonts/Spac3Techv17italic-pPLa.ttf);
+}
+
+@font-face {
+    font-family: "Circled";
+    src: url(../fonts/Circled-Mprp.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+.correct{
+    font-family: "Starzone";
+    color: rgb(0, 255, 0);
+    font-size: 500%;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+.GameOver{
+    font-family: "Starzone";
+    color: red;
+    font-size: 500%;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+body{
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    font-family: "Starzone";
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    font-size: 300%;
+    letter-spacing: 3px;
+}
+
+.container{
+    /* background-color: brown; */
+    height: 55vh;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 25%;
+    margin: auto;
+}
+
+.cards{
+    /* background-color: aqua; */
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    /* background-color: violet; */
+    height: 75%;
+    width: 200px;
+    border-radius: 25px;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symCard{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 450%;
+    font-weight: bolder;
+}
+
+.num{
+    font-size: 1000%;
+    font-weight: bolder;
+}
+
+.answer{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer{
+    padding: 8px;
+    width: 10%;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    text-shadow: 0.8px 0.8px 0.8px rgb(0, 0, 0);
+}
+
+.buttons{
+    /* background-color: aqua; */
+    text-align: center;
+    width: 40%;
+    display: flex;
+    margin: auto;
+    /* margin-top: 40%; */
+    position: absolute;
+    top: 87.5%;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+}
+
+.btn{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px;
+    background-color: black;
+    border-color: white;
+    border-radius:30px;
+    border-width: 4px;
+    font-family: "Circled";
+    text-shadow: 1px 1px 1px gray;
+}
+
+.btn:hover{
+    font-size: large;
+    font-weight: 600;
+    padding: 15px;
+    border-radius:30px;
+    border-width: 4px;
+    font-family: "Circled";
+    transition: 0.5s ease-in-out;
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+#instructions
+{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+    list-style-position: inside;
+    font-family: 'Roboto', sans-serif;
+}
+
+#instructionHeading{
+    font-size: 250%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+#instructionStart{
+    font-size: 200%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+    text-align: center;
+    padding-left: 2%;;
+    padding-right: 2%;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+#instructionList{
+    padding-top: 1.5%;
+    padding-bottom: 2.5%;
+    padding-left: 8.5%;
+    padding-right: 2.5%;
+    font-size: 150%;
+    text-indent: -3.15%;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
